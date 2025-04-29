@@ -7,33 +7,33 @@ class Tables
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter day from 1 to 7: ");
-        int day=Convert.ToInt32(Console.ReadLine());
-        if(day==1)
+        Console.WriteLine("Enter number(1 to 7): ");
+        int dayNumber=Convert.ToInt32(Console.ReadLine());
+        if(dayNumber==1)
         {
             Console.WriteLine("Sunday");
         }
-        else if(day==2)
+        else if(dayNumber==2)
         {
             Console.WriteLine("Monday");
         }
-        else if(day==3)
+        else if(dayNumber==3)
         {
             Console.WriteLine("Tuesday");
         }
-        else if(day==4)
+        else if(dayNumber==4)
         {
             Console.WriteLine("Wednesday");
         }
-        else if(day==5)
+        else if(dayNumber==5)
         {
             Console.WriteLine("Thursday");
         }
-        else if(day==6)
+        else if(dayNumber==6)
         {
             Console.WriteLine("Friday");
         }
-        else if(day==7)
+        else if(dayNumber==7)
         {
             Console.WriteLine("Saturday");
         }
