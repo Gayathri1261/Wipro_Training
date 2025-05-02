@@ -12,7 +12,7 @@ class Program
         else
         {
             
-            if (number % 10 == 0)
+            if (number % 10 == 0)  //%10 gets the last digit of a num
             {
                 return 1 + CountZeroes(number / 10); 
             }
