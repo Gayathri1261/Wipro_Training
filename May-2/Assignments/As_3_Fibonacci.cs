@@ -17,11 +17,11 @@ class Program
 
     static void Main()
     {
-        // Taking user input
+        
         Console.Write("Enter the position for Fibonacci sequence: ");
         int n = int.Parse(Console.ReadLine());
 
-        // Printing Fibonacci numbers from 0 to n
+        
         Console.WriteLine($"Fibonacci numbers up to position {n}:");
         for (int i = 0; i <= n; i++)
         {
