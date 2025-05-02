@@ -27,6 +27,6 @@ class Program
                                        // It prints each element and returns the total sum, which is stored in result.
 
         
-        Console.WriteLine($"\nSum of elements in the array is: {result}"); After all elements printed,it prints the sum.
+        Console.WriteLine($"\nSum of elements in the array is: {result}"); //After all elements printed,it prints the sum.
     }
 }
