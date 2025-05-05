@@ -1,15 +1,13 @@
-CREATE PROCEDURE GetProductRevenue
+CREATE PROCEDURE ProductRevenue
 	@ProductID INT
 AS
 BEGIN
-	SELECT
-	o.Quantity,
-	p.Price
-		(o.Quantity * p.Price) as TotalRevenue
-	FROM Orders o
-	INNER JOIN Products p ON o.ProductID = p.ProductID
-	WHERE o.ProductID = @ProductID;
-END;
+	SELECT(orders.quantity * products.price) AS TotalRevenue
+	FROM orders 
+	INNER JOIN products ON orders.productid = products.productid
+	WHERE orders.productid = @ProductID;
+END
 
-EXEC GetProductRevenue @ProductID=1;
+
+EXEC ProductRevenue @ProductID=1;
 
