@@ -22,7 +22,7 @@ using System.Threading.Tasks;
         static void Main()
         {
         //Declare instances of the custom delegate.
-        CustomDel hiDel, byeDel, multiDel;
+        CustomDel hiDel, byeDel, multiDel,multiMinusHiDel;
             hiDel = Hello;
 
         //create the delegate object byeDel that references the
@@ -32,11 +32,16 @@ using System.Threading.Tasks;
         //The two delegates,hiDel and byeDel are combined to form multiDel.
         //MultiCast delegate- simple invocation
         multiDel = hiDel + byeDel;
+
+        //Remove hiDel from the multicast delegate,leaving byeDel,//which calls only the method Goodbye.
+        multiMinusHiDel = multiDel - hiDel;
             Console.WriteLine("Invoking delegate hiDel:");
             hiDel("A");
         Console.WriteLine("Invoking delegate byeDel:");
         byeDel("B");
         Console.WriteLine("Invoking delegate multiDel:");
         multiDel("C");
+        Console.WriteLine("Invoking delegate multiMinusHiDel:");
+        multiMinusHiDel("D");
     }
     }
