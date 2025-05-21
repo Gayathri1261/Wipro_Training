@@ -1,30 +1,39 @@
 using System;
 using System.Collections.Generic;
 
-class CoinChangeGreedy
+class FirstNonRepeatingCharacter
 {
-    static void FindMinimumCoins(int amount)
+    static char FindFirstNonRepeatingChar(string input)
     {
-        int[] denominations = { 500, 200, 100, 50, 20, 10, 5, 2, 1 };
-        List<int> coinsUsed = new List<int>();
-        
-        foreach (int coin in denominations)
+        Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+        foreach (char c in input)
         {
-            while (amount >= coin)
-            {
-                amount -= coin;
-                coinsUsed.Add(coin);
-            }
+            if (charCount.ContainsKey(c))
+                charCount[c]++;
+            else
+                charCount[c] = 1;
         }
-        Console.WriteLine("Coins used: " + string.Join(", ", coinsUsed));
-        Console.WriteLine("Total coins: " + coinsUsed.Count);
+
+        foreach (char c in input)
+        {
+            if (charCount[c] == 1)
+                return c;
+        }
+
+        return '\0'; 
     }
+
     static void Main()
     {
-        Console.Write("Enter the amount: ");
-        int amount = int.Parse(Console.ReadLine());
+        Console.Write("Enter a string: ");
+        string input = Console.ReadLine();
 
-        Console.WriteLine("\nGreedy Coin Change Solution:");
-        FindMinimumCoins(amount);
+        char result = FindFirstNonRepeatingChar(input);
+
+        if (result != '\0')
+            Console.WriteLine($"First non-repeating character: {result}");
+        else
+            Console.WriteLine("No non-repeating character found.");
     }
 }
