@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .hero-section {
+        position: relative;
+        padding: 80px 15px;
+        text-align: center;
+        background-color: #f8f9fa; /* Light background for the hero section */
+        border-radius: 8px;
+        margin-bottom: 40px;
+        overflow: hidden; /* Ensures the overlay/image doesn't spill out */
+    }
+
+    /* You can uncomment and modify this if you want to use a background image */
+    /*
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('/path/to/your/image.jpg') no-repeat center center/cover;
+            opacity: 0.3; // Adjust opacity as needed
+            z-index: 1;
+        }
+        */
+
+    .hero-content {
+        position: relative;
+        z-index: 2; /* Ensures content is above the potential background image */
+    }
+
+    .hero-section h1 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .hero-section p {
+        font-size: 1.25rem;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+
+    .action-section .card {
+        transition: transform 0.2s ease-in-out;
+        height: 100%;
+    }
+
+        .action-section .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .action-section .card-title {
+        font-size: 1.5rem;
+        color: #007bff; /* Primary color */
+    }
+
+    .action-section .card-text {
+        font-size: 1rem;
+        color: #6c757d; /* Muted text color */
+    }
+
+    .action-section .btn {
+        width: 100%;
+    }
+
+    /* Placeholder for your image - you can style it or replace it */
+    .your-image-placeholder {
+        max-width: 400px; /* Adjust as needed */
+        margin: 20px auto;
+        display: block;
+        border-radius: 8px;
+        /* If you add an <img> tag here, style it */
+    }
+
+</style>
+
+<div class="hero-section">
+    <div class="hero-content">
+        <h1 class="display-4">Welcome to <strong>Employee<span class="text-primary">Management</span> System</strong></h1>
+        <p class="lead">Your central hub for managing all employee information efficiently and effectively.</p>
+
+
+        <p>Get started by navigating through the options below or use the main menu.</p>
+        <a class="btn btn-primary btn-lg" asp-area="" asp-controller="Employees" asp-action="Index" role="button">View All Employees &raquo;</a>
+    </div>
+</div>
+
+<hr />
+
+<div class="container action-section">
+    <h2 class="text-center mb-4">Quick Actions 🚀</h2>
+    <div class="row text-center">
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">👥 Manage Employees</h5>
+                    <p class="card-text">View, edit, and search for employee records in the system.</p>
+                    <a asp-area="" asp-controller="Employees" asp-action="Index" class="btn btn-outline-primary">Go to Employees</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">➕ Add New Employee</h5>
+                    <p class="card-text">Quickly add a new member to your workforce database.</p>
+                    <a asp-area="" asp-controller="Employees" asp-action="Create" class="btn btn-outline-success">Add Employee</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">🏢 Departments</h5>
+                    <p class="card-text">Manage company departments and employee assignments.</p>
+                    <a asp-area="" asp-controller="Departments" asp-action="Index" class="btn btn-outline-info">Manage Departments</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|c:\\users\\admin\\source\\repos\\webapplication11\\webapplication11\\models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA53694-824C-4D7E-BC0E-14B00CE73067}|WebApplication11\\WebApplication11.csproj|solutionrelative:webapplication11\\models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:24:06.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:20:46.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Controllers\\AboutController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "WebApplication11\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:19:50.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T06:13:42.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "WebApplication11\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:08:35.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\ContactViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication11\\Models\\ContactViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Models\\ContactViewModel.cs",
+              "RelativeToolTip": "WebApplication11\\Models\\ContactViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T06:03:08.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication11\\WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication11\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T05:57:00.577Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
