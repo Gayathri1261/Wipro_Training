@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ERP Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h2>🔷 ERP</h2>
+      <nav>
+        <ul>
+          <li onclick="showSection('dashboard')">📊 Dashboard</li>
+          <li onclick="showSection('inventory')">📦 Inventory</li>
+          <li onclick="showSection('employees')">👨‍💼 Employees</li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <section id="dashboard">
+        <h1>Dashboard</h1>
+        <div class="cards">
+          <div class="card">
+            <h2>Total Products</h2>
+            <p>120</p>
+          </div>
+          <div class="card">
+            <h2>Employees</h2>
+            <p>15</p>
+          </div>
+          <div class="card">
+            <h2>Sales Today</h2>
+            <p>$2,430</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="inventory" class="hidden">
+        <h1>Inventory</h1>
+        <table>
+          <thead>
+            <tr><th>Item</th><th>Quantity</th><th>Price</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Laptop</td><td>10</td><td>$900</td></tr>
+            <tr><td>Mouse</td><td>50</td><td>$15</td></tr>
+            <tr><td>Monitor</td><td>20</td><td>$150</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="employees" class="hidden">
+        <h1>Employees</h1>
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Role</th><th>Status</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Alice Johnson</td><td>Manager</td><td>Active</td></tr>
+            <tr><td>Bob Smith</td><td>Sales</td><td>Active</td></tr>
+            <tr><td>Emma Lee</td><td>Inventory</td><td>Inactive</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
